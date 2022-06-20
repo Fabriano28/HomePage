@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>017B6AEE-FE5F-468A-BF66-1170DA37EF98</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>017B6AEE-FE5F-468A-BF66-1170DA37EF98.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HomePage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomePage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HomePage</string>
+			<key>timeStartedRecording</key>
+			<real>677390635.96587098</real>
+			<key>timeStoppedRecording</key>
+			<real>677405778.65524805</real>
+			<key>title</key>
+			<string>Run HomePage</string>
+			<key>uniqueIdentifier</key>
+			<string>017B6AEE-FE5F-468A-BF66-1170DA37EF98</string>
+		</dict>
+		<key>8F4A399D-3B44-4890-896A-77A15E63F3AB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8F4A399D-3B44-4890-896A-77A15E63F3AB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HomePage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomePage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HomePage</string>
+			<key>timeStartedRecording</key>
+			<real>677406643.57026994</real>
+			<key>timeStoppedRecording</key>
+			<real>677406858.69244099</real>
+			<key>title</key>
+			<string>Run HomePage</string>
+			<key>uniqueIdentifier</key>
+			<string>8F4A399D-3B44-4890-896A-77A15E63F3AB</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

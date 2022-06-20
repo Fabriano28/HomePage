@@ -5,6 +5,211 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>0812E163-4435-4DAE-8C01-37C7E5E28C63</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0812E163-4435-4DAE-8C01-37C7E5E28C63.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HomePage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomePage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomePage</string>
+			<key>timeStartedRecording</key>
+			<real>677406292.24572206</real>
+			<key>timeStoppedRecording</key>
+			<real>677406295.01946998</real>
+			<key>title</key>
+			<string>Build HomePage</string>
+			<key>uniqueIdentifier</key>
+			<string>0812E163-4435-4DAE-8C01-37C7E5E28C63</string>
+		</dict>
+		<key>157CCDF5-F6C1-4AF3-A1E2-59F5AC61C9FF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>157CCDF5-F6C1-4AF3-A1E2-59F5AC61C9FF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HomePage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomePage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomePage</string>
+			<key>timeStartedRecording</key>
+			<real>677406638.67522097</real>
+			<key>timeStoppedRecording</key>
+			<real>677406643.52482498</real>
+			<key>title</key>
+			<string>Build HomePage</string>
+			<key>uniqueIdentifier</key>
+			<string>157CCDF5-F6C1-4AF3-A1E2-59F5AC61C9FF</string>
+		</dict>
+		<key>3425AF0C-E1DD-4E25-AAF1-1ECEA498E4B9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3425AF0C-E1DD-4E25-AAF1-1ECEA498E4B9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HomePage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomePage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomePage</string>
+			<key>timeStartedRecording</key>
+			<real>677406545.36779106</real>
+			<key>timeStoppedRecording</key>
+			<real>677406547.24910295</real>
+			<key>title</key>
+			<string>Build HomePage</string>
+			<key>uniqueIdentifier</key>
+			<string>3425AF0C-E1DD-4E25-AAF1-1ECEA498E4B9</string>
+		</dict>
+		<key>7A008EE5-B019-46DB-BB11-FF6A2986E6BA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7A008EE5-B019-46DB-BB11-FF6A2986E6BA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HomePage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomePage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean HomePage</string>
+			<key>timeStartedRecording</key>
+			<real>677406540.81512201</real>
+			<key>timeStoppedRecording</key>
+			<real>677406540.91473305</real>
+			<key>title</key>
+			<string>Clean HomePage</string>
+			<key>uniqueIdentifier</key>
+			<string>7A008EE5-B019-46DB-BB11-FF6A2986E6BA</string>
+		</dict>
+		<key>7BB8EA4C-C62C-4101-B7D4-35C5D51A88FC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7BB8EA4C-C62C-4101-B7D4-35C5D51A88FC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HomePage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomePage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomePage</string>
+			<key>timeStartedRecording</key>
+			<real>677406764.64479494</real>
+			<key>timeStoppedRecording</key>
+			<real>677406767.34510803</real>
+			<key>title</key>
+			<string>Build HomePage</string>
+			<key>uniqueIdentifier</key>
+			<string>7BB8EA4C-C62C-4101-B7D4-35C5D51A88FC</string>
+		</dict>
+		<key>F3DCCF90-46A8-4951-875F-841AA0151B2C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F3DCCF90-46A8-4951-875F-841AA0151B2C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HomePage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomePage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean HomePage</string>
+			<key>timeStartedRecording</key>
+			<real>677406630.09686506</real>
+			<key>timeStoppedRecording</key>
+			<real>677406630.25851202</real>
+			<key>title</key>
+			<string>Clean HomePage</string>
+			<key>uniqueIdentifier</key>
+			<string>F3DCCF90-46A8-4951-875F-841AA0151B2C</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

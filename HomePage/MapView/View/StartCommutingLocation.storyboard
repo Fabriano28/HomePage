@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Start Commuting Location Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="StartCommutingLocation" id="Y6W-OH-hqX" customClass="StartCommutingLocationController" customModule="HomePage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsf-Vb-hbB">
+                                <rect key="frame" x="24" y="63" width="177" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="You are commuting to">
+                                        <attributes>
+                                            <color key="NSColor" red="0.88627451660000001" green="0.89019608500000003" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="18" name="SFPro-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ehb-ib-PPA">
+                                <rect key="frame" x="24" y="112" width="366" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nal-5z-QcQ">
+                                        <rect key="frame" x="15" y="8" width="327" height="21"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Label">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.88627451660000001" green="0.89019608500000003" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="18" name="SFPro-Regular"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vb-ts-wMH">
+                                        <rect key="frame" x="29" y="30" width="313" height="19"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Label">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.88627451660000001" green="0.89019608500000003" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="16" name="SFPro-Regular"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c4p-qx-Dxf">
+                                        <rect key="frame" x="15" y="35" width="10" height="10"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="10" id="VgZ-1m-QxU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.031372549020000001" green="0.050980392159999999" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="c4p-qx-Dxf" firstAttribute="leading" secondItem="ehb-ib-PPA" secondAttribute="leading" constant="15" id="0jx-U3-POn"/>
+                                    <constraint firstItem="Nal-5z-QcQ" firstAttribute="top" secondItem="ehb-ib-PPA" secondAttribute="top" constant="8" id="6Lc-4A-q5l"/>
+                                    <constraint firstAttribute="height" constant="60" id="TAg-zz-l2Q"/>
+                                    <constraint firstItem="1vb-ts-wMH" firstAttribute="leading" secondItem="c4p-qx-Dxf" secondAttribute="trailing" constant="4" id="X6e-UC-UxQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Nal-5z-QcQ" secondAttribute="trailing" constant="24" id="dYi-fc-yqO"/>
+                                    <constraint firstItem="1vb-ts-wMH" firstAttribute="top" secondItem="Nal-5z-QcQ" secondAttribute="bottom" constant="1" id="lyw-E6-RK1"/>
+                                    <constraint firstAttribute="bottom" secondItem="c4p-qx-Dxf" secondAttribute="bottom" constant="15" id="lzr-9Z-WS7"/>
+                                    <constraint firstItem="c4p-qx-Dxf" firstAttribute="top" secondItem="Nal-5z-QcQ" secondAttribute="bottom" constant="6" id="tz5-l1-0dc"/>
+                                    <constraint firstAttribute="trailing" secondItem="1vb-ts-wMH" secondAttribute="trailing" constant="24" id="vMs-lC-fn8"/>
+                                    <constraint firstItem="Nal-5z-QcQ" firstAttribute="leading" secondItem="ehb-ib-PPA" secondAttribute="leading" constant="15" id="yiI-h7-1xq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SfL-Zn-HDe">
+                                <rect key="frame" x="24" y="204" width="366" height="38"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.13725490200000001" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="dOZ-KJ-laf"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zkU-7c-JkO">
+                                    <size key="itemSize" width="59" height="38"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbN-Kp-Tfe">
+                                <rect key="frame" x="24" y="270" width="366" height="37.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="We will notify your guarding ring that you’re commuting to this destination">
+                                        <attributes>
+                                            <color key="NSColor" red="0.88627451660000001" green="0.89019608500000003" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="SFPro-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNi-QT-yNS">
+                                <rect key="frame" x="24" y="335.5" width="366" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="vJb-fr-DRt"/>
+                                </constraints>
+                                <color key="tintColor" red="0.45098039220000002" green="0.29803921570000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Start Commuting">
+                                            <attributes>
+                                                <color key="NSColor" red="0.88627451660000001" green="0.89019608500000003" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="18" name="SFPro-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="didStartCommuting:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="TYr-uZ-Ye9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.1333333333" green="0.13725490200000001" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SfL-Zn-HDe" firstAttribute="top" secondItem="ehb-ib-PPA" secondAttribute="bottom" constant="32" id="02R-jz-kRB"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="TbN-Kp-Tfe" secondAttribute="trailing" constant="24" id="3rF-Pa-5bO"/>
+                            <constraint firstItem="gNi-QT-yNS" firstAttribute="top" secondItem="TbN-Kp-Tfe" secondAttribute="bottom" constant="28" id="B53-DI-3qv"/>
+                            <constraint firstItem="TbN-Kp-Tfe" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="HZu-vA-0Rv"/>
+                            <constraint firstItem="rsf-Vb-hbB" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="19" id="Jel-pI-BEj"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="SfL-Zn-HDe" secondAttribute="trailing" constant="24" id="M4P-Et-a1b"/>
+                            <constraint firstItem="SfL-Zn-HDe" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="Rwj-j8-Cj5"/>
+                            <constraint firstItem="ehb-ib-PPA" firstAttribute="top" secondItem="rsf-Vb-hbB" secondAttribute="bottom" constant="28" id="ZA3-ZN-rMI"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="gNi-QT-yNS" secondAttribute="trailing" constant="24" id="eah-a7-Wap"/>
+                            <constraint firstItem="TbN-Kp-Tfe" firstAttribute="top" secondItem="SfL-Zn-HDe" secondAttribute="bottom" constant="28" id="oU4-Oa-Ry6"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ehb-ib-PPA" secondAttribute="trailing" constant="24" id="uzN-0Y-6dg"/>
+                            <constraint firstItem="ehb-ib-PPA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="w9h-t3-d5a"/>
+                            <constraint firstItem="rsf-Vb-hbB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="woK-YR-DgH"/>
+                            <constraint firstItem="gNi-QT-yNS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="xCY-G3-KO7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="destination" destination="Nal-5z-QcQ" id="Vag-MM-LzD"/>
+                        <outlet property="street" destination="1vb-ts-wMH" id="Uud-bc-TOB"/>
+                        <outlet property="transportationCollectionView" destination="SfL-Zn-HDe" id="xI9-gM-h60"/>
+                        <segue destination="obG-q7-fp9" kind="unwind" identifier="cummuteScreenSegue" unwindAction="unwindCommuteScreen:" id="QXd-gS-d4J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="obG-q7-fp9" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-13.043478260869566" y="75.669642857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
